@@ -1,0 +1,17 @@
+<html> 
+<head> <script> function toUpper() { var 
+text = document.getElementById('panel').innerHTML 
+ document.getElementById('panel').innerHTML = text.toUpperCase() 
+ } 
+ function toLower() { var text = 
+document.getElementById('panel').innerHTML 
+ document.getElementById('panel').innerHTML = text.toLowerCase() 
+} 
+ </script> 
+</head> 
+<body> 
+ <p id="panel">Click on button to change case.</p> 
+ <input type="button" value="UPPERCASE" onclick="toUpper()" /> 
+<input type="button" value="lowercase" onclick="toLower()" /> 
+</body> 
+</html>
